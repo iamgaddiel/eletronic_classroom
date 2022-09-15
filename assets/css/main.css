@@ -1,0 +1,110 @@
+header{
+    box-shadow: 1px 1px 20px var(--light-grey);
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 5px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: #ffffff;
+}
+
+.toggle_section span{
+    width: 25px;
+    height: 3px;
+    background: #333333;
+    display: block;
+    margin: 5px 0;
+}
+
+.profile_preview{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.profile_preview div{
+    margin: 0 10px;
+    background: linear-gradient(to top right, blue, red);
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_preview h2{
+    font-weight: bold;
+}
+
+
+/* Navigation */
+main{
+    display: flex;
+    margin-top:5.5rem;
+    overflow: hidden !important;
+}
+
+nav{
+    width: 15vw;
+    /* background-color: #f6f6f6; */
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    margin: 25px 0;
+    transition: all .5s;
+    padding: 15px;
+}
+
+nav a{
+    color: var(--teal);
+}
+
+nav li:hover{
+    margin-left: 20px;
+    border-radius: 1px solid #bbbbbb;
+}
+
+
+/* Aside */
+
+aside{
+    padding: 2rem;
+    width: 100%;
+    margin-left: 16rem;
+}
+
+.card_wrapper a{
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px;
+    margin: 15px 0;
+    background: #ffffff;
+    transition: all .5s;
+    border-bottom: 1px solid var(--light-grey);
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 30px var(--light-grey);
+}
