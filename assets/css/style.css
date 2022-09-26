@@ -2,8 +2,15 @@
     --background_color: #f4f4f4;
     --teal: #07e0e0;
     --grey:  #959595;
+    --grey-2: #bbbbbb;
     --light-grey: #e4e4e4;
+    --dark: #333333;
+    --muted: #7a7a7a;
+    --light:  #ffffff;
+    --primary: #357cec;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -30,7 +37,7 @@ a{
 }
 
 .form h2{
-    /* color: var(--teal); */
+    /* color: var(--primary); */
     letter-spacing: 1px;
 }
 
@@ -62,11 +69,12 @@ a{
 }
 
 button{
-    background-color: var(--teal);
+    background-color: var(--primary);
     border: none;
     padding: 10px;
     border-radius: 5px;
     width: 70px;
+    color: var(--light)
 }
 button:hover{
     cursor: pointer;

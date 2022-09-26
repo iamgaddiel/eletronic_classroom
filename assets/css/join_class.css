@@ -1,0 +1,56 @@
+.logo_wrapper{
+    display:flex;
+    align-items: center;
+    color: var(--grey)
+}
+
+.logo_wrapper span {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.logo_wrapper h4{
+    font-size: larger;
+}
+
+/* Navigation */
+main {
+    margin-top: 5.5rem;
+    overflow: hidden !important;
+    width:50vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main_section {
+    padding: 30px;
+    width: calc(85vw - 4rem);
+}
+
+.main_section input{
+    width: 25%;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.main_section .top{
+    padding: 30px;
+    border: 1px solid var(--grey-2);
+    border-radius: 20px;
+}
+
+ul li{
+    margin: 20px 0;
+    color: var(--grey)
+}
+
+.action_button{
+    background-color: var(--grey-2);
+    font-size: medium;
+    color: #eeebbb;
+    transition: .5s;
+}
+.action_button:hover{
+    background-color: var(--primary);
+}

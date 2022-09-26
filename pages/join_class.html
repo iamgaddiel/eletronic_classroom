@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronic Classroom</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/join_class.css" />
+  </head>
+  <body>
+    <header>
+      <section class="logo_wrapper ">
+        <span class="logo">X</span>
+        <h2>Join class </h2>
+      </section>
+      <button class="action_button" >
+        <a href="./dashboard.html">Join</a>
+      </button>
+    </header>
+
+    <main>
+      <section class="class_section">
+        <section class="class_content">
+          <!-- main content  -->
+          <section class="main_section">
+            <div class="top">
+              <h2>
+                Class Code
+                <h3>Ask your teach for the class code, then enter it here</h3>
+              </h2>
+              <form action="./dashboard.html" method="post">
+                <input
+                  type="text"
+                  name="class_code"
+                  id="class_code"
+                  placeholder="Class Codde"
+                />
+              </form>
+            </div>
+
+            <div>
+              <h3>To sign in with class code</h3>
+              <ul>
+                <li>Use a authorized account</li>
+                <li>
+                  Use a class code with 5-7 letters or number, and no spaces or
+                  symbols
+                </li>
+              </ul>
+
+              <p>
+                If you have trouble joining the class, go to the
+                <a href="">Help Center article</a>
+              </p>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
